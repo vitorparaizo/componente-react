@@ -21,8 +21,8 @@ export default function Profile() {
         <Image
           src="/me.jpg"
           alt="Minha foto"
-          width={200}
-          height={200}
+          width={220}
+          height={220}
           className={styles.photo}
         />
       </div>
