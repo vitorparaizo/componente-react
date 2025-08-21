@@ -1,14 +1,23 @@
+/* Reset básico */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
 body {
   margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  background:
+    radial-gradient(800px 800px at 100% 100%,
+      rgba(255,255,255,0.45),
+      rgba(255,255,255,0.18) 35%,
+      rgba(255,255,255,0.06) 55%,
+      rgba(255,255,255,0.00) 70%
+    ),
+    #000335;
+  background-attachment: fixed;
+  color: rgba(255,255,255,0.92);
 }
 
-main {
-  text-align: center;
-}
+
+h1, h2, h3, p { margin: 0; }
